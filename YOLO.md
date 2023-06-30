@@ -1,6 +1,13 @@
-# YOLO #
-### full form ###
-# You Only Look Once #
+# YOLO [You Only Look Once] #
+- It is pre-trained model to detect the object.
+- It is a convolutional neural network (CNN) for doing real-time.
+- The algorithm applies a single neural network to the full image and then divides the image into regions and predicts bounding boxes and probabilites for each region.
+- The bounding boxes are weighted by the predicted probabilities.
+- The pre-trained models are trained with 80 types of classes.
+- The following files should be downloaded :
+        - model weights
+        - configuration file
+        - coco.names
 
 
 ## Oject Localization 
