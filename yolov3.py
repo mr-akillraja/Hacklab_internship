@@ -13,7 +13,7 @@ with open('coco.names','r') as f:
 
 
 # Folder path containing the images
-folder_path = 'images/'
+folder_path = 'Track_Images/'
 
 # Iterate over the files in the folder
 for filename in os.listdir(folder_path):
